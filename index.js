@@ -85,6 +85,13 @@ $(function()
             $("#center-show-software").attr("width","45%")
             $("#describe-history_soft").text("PocketPlugin 1.4.1发布 godot广告插件")
         }
+        if(index == 4)
+        {
+            $("#year_soft").text("2022-05-27")
+            $("#center-show-software").attr("src","img/iapp2java.png")
+            //$("#center-show-software").attr("width","45%")
+            $("#describe-history_soft").text("iapp2Java翻译器发布")
+        }
 
     }
     $("#time_before").click(function()
@@ -160,7 +167,7 @@ $(function()
             {
                 window.open("https://indienova.com/g/hqmgtryx","_blank")
             }
-            
+    
    })
    $("#center-show-software").click(function()
    {
@@ -180,6 +187,10 @@ $(function()
        {
            window.open("https://gitee.com/small-sandbox/pocket-plugin","_blank")
        }
+       if(time_software_index == 4)
+        {
+            window.open("https://github.com/2439905184/iapp2Java","_blank")
+        }
    })
     /*function timeAfter()
     {
