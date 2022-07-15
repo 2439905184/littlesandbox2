@@ -15,7 +15,7 @@
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
    <script src="index.js"></script>
    <style>
-        .nav:hover
+        #nav span:hover
         {
             color: blue;
         }
@@ -33,13 +33,13 @@
 </head>
 
 <body>
-    <div>
+    <div id="nav">
         <img src="sand.png" width="100px"/>
-        <span class="nav">首页</span>
-        <span class="nav">产品信息</span>
-        <span class="nav">了解我们</span>
-        <span class="nav">加入我们</span>
-        <span class="nav">Cn/En新闻动态</span>
+        <span>首页</span>
+        <span>产品信息</span>
+        <span>了解我们</span>
+        <span>加入我们</span>
+        <span>Cn/En新闻动态</span>
     </div>
     <audio src="https://sound-ks1.cdn.missevan.com/aod/202010/24/d40068d00eb6b8cdeca4ee80fafe0aef162612.m4a" controls autoplay="true"></audio>
     <hr>
@@ -47,7 +47,7 @@
     <p id="maque">麻雀虽小，五脏俱全</p>
     <iframe src="https://player.bilibili.com/player.html?aid=244479780&bvid=BV1pv41117ht&cid=229836560&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width="100%" height="720" > </iframe>
     
-    <p>这是一个初创独立游戏工作室（兼软件开发【开源居多】）,创始人128hh.成员目前有三个，网络上认识的。 工作室成立于2020年8月2日 粽子与小凯-程序员 dark-程序员 工作室理念：自由，平等，健康，合作，共享，互利共赢，互相帮助。 小沙盒工作室，虽然小，但是组成小沙盒的每一位小沙子联合起来就能发挥出几乎无限的力量，就像mc的无限沙盒世界。 我们注重创意，创新，当然也要考虑赚钱。 但不会做被人看不起的随意100%抄袭事情。 工作范围：游戏开发，软件开发，电子音乐制作，多媒体制作，广告制作，pv制作，同人视频创作，原创文章创作等多方面的文化艺术创作。
+    <p>这是一个综合性网络工作室（游戏开发+软件开发等【开源居多】）,创始人128hh(创艺).成员目前有三个，网络上认识的。 工作室成立于2020年8月2日 粽子与小凯-程序员 dark-程序员 工作室理念：自由，平等，健康，合作，共享，互利共赢，互相帮助。 小沙盒工作室，虽然小，但是组成小沙盒的每一位小沙子联合起来就能发挥出几乎无限的力量，就像mc的无限沙盒世界。 我们注重创意，创新，当然也要考虑赚钱。 但不会做被人看不起的随意100%抄袭事情。 工作范围：游戏开发，软件开发，电子音乐制作，多媒体制作，广告制作，pv制作，同人视频创作，原创文章创作等多方面的文化艺术创作。
         小沙盒认为，游戏是一种独特的艺术形式，小沙盒工作室会用自己创新的想法，来做有趣的小游戏，独立游戏。艺术来源于生活，遵循这个原则，小沙盒的一些游戏和软件也会从生活中寻找灵感
     </p>
     <h1>在成为一流的独立开发工作室的路上</h1>
@@ -89,21 +89,53 @@
     <p>目前工作室就我一个主力，真够肝的，还没能盈利TAT</p>
     <hr>
     <h2>加入我们</h2>
+
     <p>小沙盒工作室的工作众多，不一定能够养活自己，但我们愿意为梦想拼搏，现在不行，不代表以后不行。</p>
     <p>在这里，你可以是音乐家、插画师、编程技术大佬、独立游戏开发大佬、我们期待你的加入。</p>
     <p>总有一天，小沙盒可以成功的！</p>
     <p>联系qq:2439905184</p>
     <hr>
-    <h2>一起打造最一流的全能技术游戏公司</h2>
+    <h2>一起打造最一流的全能技术/游戏/多媒体公司</h2>
+
     <p>小沙盒不仅仅想成为一家出色的游戏公司，在成为世界一流的全能型公司的路上，我们真诚地欢迎每一位有共同理想的人</p>
     <img width="700" src="https://images.gitee.com/uploads/images/2021/0307/171707_83ca88d7_4804503.jpeg">
     <h2>小沙盒个工作模式</h2>
     <p>异地办公，需要自备电脑，学习git使用。工作室统一使用git进行协作</p>
+    <hr/>
     <p>小沙盒喜欢去中心化结构，会在软件和游戏中尝试加入去中心化技术，甚至服务器也是去中心化的。我们也会在游戏中加入强人工智能，用于增强游戏体验</p>
     <hr>
-    <p>友情链接</p>
+    <span>友情链接:</span>
     <a href="http://mclchz.top" target="_blank">联创技术</a>
-    <a href="https://lzr2006.github.io/wkgd/" target="_blank">method box工作室</a>
+    <a href="https://lzr2006.github.io/wkgd/" target="_blank">method box工作室(方法盒子)</a>
+
+    <!--个人项目经历-->
+    <h2>个人项目经历</h2>
+    <ol>
+        <li>2021/9/14 向开源软件suika2首次提交pr：添加了actions(CI) <a href="https://github.com/ktabata/suika2/pull/28">pr28</a></li>
+        <li>2022/7/15 往前数27天 向开源软件suika2第二次提交pr：完成中午指令文档的翻译 <a href="https://github.com/ktabata/suika2/pull/40">pr40</a></li>
+        <li>2022/7/15 往前数22天 translated tutorail.md to Chinese<a href="https://github.com/ktabata/suika2/pull/41">pr41</a></li>
+        <li>2022/7/11 向开源软件suika2提交第三次pr：添加了退出游戏时的确认框<a href="https://github.com/ktabata/suika2/pull/51">pr51</a> 并在2.9.11版本时加入<a href="https://github.com/ktabata/suika2/releases/tag/v2.9.11">2.9.11</a></li>
+        <li>2021 - 未知 完成了网友的软件开发委托：安卓手机上的love2d工程管理软件和运行插件（使用iapp技术开发）</li>
+        <li>2021 - 2021/5/22 完成了网友的游戏开发委托：将2d游戏做成3d游戏（Godot游戏引擎）<a href="https://www.bilibili.com/video/BV1K64y1y7i7?spm_id_from=333.999.0.0">老人跳跃</a></li>
+        <li>2022 - 2022/7/15 完成了网友的呼吸英雄游戏二次开发（Godot游戏引擎）</li>
+        <li>2022/7/13 完成了godot安卓广告插件YomobPlugin(仅测试) <a href="https://github.com/Godot-SDK/YomobPlugin">YomobPlugin</a></li>
+        <li>2022/7/12 完成的安卓插件的gdap配置文件自动生成器<a href="https://www.bilibili.com/video/BV11t4y1b7cB?spm_id_from=333.999.0.0">b站视频链接</a></li>
+    </ol>
+    <h2>工作室集体项目（暂无）</h2>
+    
+    <h2>工作室现有成员</h2>
+    <li>【美工】二次元是信仰</li>
+    <li>粽子</li>
+    <li>androids7</li>
+    
+    <h2>工作室logo动画</h2>
+
+    <p>这是我本人自己做的，软件：enve 丑死了！！！！！</p>
+    <iframe src="https://player.bilibili.com/player.html?aid=244479780&bvid=BV1Sa411e7LG" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width="100%" height="720" > </iframe>
+    
+    <h2>线下工作室地址</h2>
+    <p>自家车库  :D</p>
+    <a href="mrt.html">名人堂</a>
 </body>
 
 </html>
